@@ -11,12 +11,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 " dark powered neo-completion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" YAJS: Yet Another JavaScript Syntax
-Plug 'othree/yajs.vim'
-" typescript syntax highlighting
-Plug 'leafgarland/typescript-vim'
-" jsx syntax highlighting
-Plug 'maxmellon/vim-jsx-pretty'
 " linter
 Plug 'dense-analysis/ale'
 " Toggles between hybrid and absolute line numbers automatically
@@ -24,8 +18,6 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 " status/tab line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" 320 color themes
-Plug 'rainglow/vim'
 " running tests
 Plug 'janko/vim-test'
 " seamless navigation between vim and tmux
@@ -44,11 +36,19 @@ Plug 'tpope/vim-markdown'
 Plug 'neovim/nvim-lsp'
 " Intellisense engine, full language server protocol support as VSCode 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" onedark theme
-Plug 'joshdick/onedark.vim'
-" A solid language pack for Vim.
-Plug 'sheerun/vim-polyglot'
 " prettier ❤️
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+" syntax highlighting
+Plug 'leafgarland/typescript-vim'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+Plug 'sheerun/vim-polyglot'
+
+" THEMES
+Plug 'rainglow/vim'
+Plug 'joshdick/onedark.vim'
+Plug 'haishanh/night-owl.vim'
+
 
 call plug#end()

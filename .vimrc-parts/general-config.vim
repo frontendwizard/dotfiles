@@ -1,7 +1,18 @@
 " theme
-syntax on
-colorscheme onedark
-let g:onedark_terminal_italics = 1
+
+""""" enable 24bit true color
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+""""" enable the theme
+
+syntax enable
+colorscheme night-owl
+
+" To enable the lightline theme
+let g:lightline = { 'colorscheme': 'nightowl' }
 
 " case insensitive search
 set ignorecase
