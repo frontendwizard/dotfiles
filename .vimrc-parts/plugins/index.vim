@@ -7,3 +7,4 @@ source ~/.vimrc-parts/plugins/airline.vim
 source ~/.vimrc-parts/plugins/vim-test.vim
 source ~/.vimrc-parts/plugins/coc.vim
 source ~/.vimrc-parts/plugins/vim-jsx.vim
+source ~/.vimrc-parts/plugins/vim-closetag.vim

@@ -1,18 +1,13 @@
 " theme
 
 """"" enable 24bit true color
-
 if (has("termguicolors"))
  set termguicolors
 endif
 
 """"" enable the theme
-
 syntax enable
 colorscheme night-owl
-
-" To enable the lightline theme
-let g:lightline = { 'colorscheme': 'nightowl' }
 
 " case insensitive search
 set ignorecase
@@ -38,3 +33,5 @@ au FileType html setlocal formatprg=prettier
 au FileType scss setlocal formatprg=prettier
 au FileType css setlocal formatprg=prettier
 au FileType mdx setlocal formatprg=prettier
+
+let g:deoplete#enable_at_startup = 1
